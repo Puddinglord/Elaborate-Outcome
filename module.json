@@ -1,0 +1,20 @@
+{
+  "name": "elaborate-combat",
+  "title": "Elaborate Combat",
+  "description": "When making an attack there's more than just hitting and missing, there's a story behind it.",
+  "version": "0.0.1",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "0.7.8",
+  "author": "Dakotah Cote (Puddinglord)",
+  "esmodules": ["main.js"],
+  "url": "https://github.com/Puddinglord/elaborate-combat",
+  "manifest": "https://raw.githubusercontent.com/Puddinglord/elaborate-combat/main/module.json",
+  "download": "",
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ]
+}
