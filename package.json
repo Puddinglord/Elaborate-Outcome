@@ -1,0 +1,28 @@
+{
+  "name": "elaborate-combat",
+  "version": "0.0.1",
+  "description": "When making an attack there's more than just hitting and missing, there's a story behind it.",
+  "main": "main.ts",
+  "scripts": {
+    "start": "npm run build:live",
+    "build": "tsc -p .",
+    "build:live": "nodemon --watch 'src/**/*.ts' --exec \"ts-node\" src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Puddinglord/elaborate-combat.git"
+  },
+  "author": "Dakotah Cote",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Puddinglord/elaborate-combat/issues"
+  },
+  "homepage": "https://github.com/Puddinglord/elaborate-combat#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.13",
+    "foundry-pc-types": "gitlab:foundry-projects/foundry-pc/foundry-pc-types",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}

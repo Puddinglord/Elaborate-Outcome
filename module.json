@@ -8,13 +8,5 @@
   "author": "Dakotah Cote (Puddinglord)",
   "esmodules": ["main.js"],
   "url": "https://github.com/Puddinglord/elaborate-combat",
-  "manifest": "https://raw.githubusercontent.com/Puddinglord/elaborate-combat/main/module.json",
-  "download": "",
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
-    }
-  ]
+  "manifest": "https://raw.githubusercontent.com/Puddinglord/elaborate-combat/main/module.json"
 }
